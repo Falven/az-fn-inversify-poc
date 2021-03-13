@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "lib": ["es6", "dom"], // InversifyJS
+    "types": ["reflect-metadata"], // InversifyJS
+    "experimentalDecorators": true, // InversifyJS
+    "emitDecoratorMetadata": true, // InversifyJS
+    "outDir": "dist",
+    "rootDir": ".",
+    "sourceMap": true,
+    "strict": false
+  }
+}

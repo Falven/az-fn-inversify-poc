@@ -1,0 +1,21 @@
+{
+  "name": "az-fn-inversify-poc",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "prestart": "npm run build",
+    "start": "func start",
+    "test": "echo \"No tests yet...\""
+  },
+  "dependencies": {
+    "inversify": "^5.0.5",
+    "reflect-metadata": "^0.1.13"
+  },
+  "devDependencies": {
+    "@azure/functions": "^1.2.3",
+    "typescript": "^4.0.0"
+  }
+}
